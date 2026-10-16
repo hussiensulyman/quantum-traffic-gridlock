@@ -1,0 +1,28 @@
+{
+ "bit_order": "A slot1..4 then B slot1..4; 1=NS green, 0=EW green; counts.json keys use the same order (char i = bit i)",
+ "most_frequent_sample": "10000111",
+ "best_surrogate_among_samples": "10010110",
+ "top5": [
+  {
+   "bits": "10000111",
+   "count": 201
+  },
+  {
+   "bits": "10010111",
+   "count": 197
+  },
+  {
+   "bits": "10000110",
+   "count": 162
+  },
+  {
+   "bits": "10010110",
+   "count": 147
+  },
+  {
+   "bits": "00010110",
+   "count": 135
+  }
+ ],
+ "bits": "10000111"
+}

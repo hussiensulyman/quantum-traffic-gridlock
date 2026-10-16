@@ -1,0 +1,6 @@
+C*=72.0 C_rand=151.25
+seed 0: E_Q=99.12 lift=0.658 enrichment=6.97 top=11111001
+seed 1: E_Q=98.10 lift=0.671 enrichment=7.17 top=11111000
+seed 2: E_Q=98.52 lift=0.665 enrichment=7.35 top=11111000
+seed 3: E_Q=102.61 lift=0.614 enrichment=5.49 top=11111000
+seed 4: E_Q=98.96 lift=0.660 enrichment=7.08 top=11111001
