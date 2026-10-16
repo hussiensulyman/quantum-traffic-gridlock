@@ -36,7 +36,9 @@ QAOA sampling quality on R (5 seeds, p=3): min lift **0.614**, mean elite enrich
 
 ## Installation
 
+```
 pip install -r requirements.txt
+```
 
 **Dependencies:**
 - qiskit>=1.0.0
@@ -46,8 +48,10 @@ pip install -r requirements.txt
 
 ## Running the Pipeline
 
+```
 python run.py --scenario scenario_R.json --seed 0 --out out_0
 python run.py --scenario scenario_H.json --seed 0 --out out_H_0
+```
 
 The pipeline produces four files in the output directory:
 - `qubo.json` — QUBO matrix, Ising form, variable mapping, QAOA parameters
@@ -57,11 +61,15 @@ The pipeline produces four files in the output directory:
 
 ## Running Baselines and Checks
 
-# Compute baselines (alternating, greedy, enumeration, QUBO minimizer)
+## Compute baselines (alternating, greedy, enumeration, QUBO minimizer)
+```
 python baselines.py scenario_R.json
+```
 
-# Verify consistency between NumPy model and Qiskit circuit
+## Verify consistency between NumPy model and Qiskit circuit
+```
 python check.py
+```
 
 ## Mathematical Approach
 
